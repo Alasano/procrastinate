@@ -1,0 +1,11 @@
+    <footer id="site-footer">
+        <div class="container">
+            <a href="{{ .Site.BaseURL }}index.xml" title="Get the RSS feed"><span class="tooltip"><i class="fa fa-rss"></i></span></a>
+            <section>&copy; <a href="{{ .Site.BaseURL }}">{{ .Site.Params.author }}</a> 2016 | All rights reserved</section>            
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.4.1/prism.js"></script>
+    <script type="text/javascript" src="{{ .Site.BaseURL }}js/fittext.js"></script>
+    <script type="text/javascript">
+      $(".heading").fitText();
+    </script>

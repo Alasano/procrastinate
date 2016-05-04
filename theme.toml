@@ -1,0 +1,13 @@
+name = "Procrastinate"
+license = "MIT"
+licenselink = "https://github.com/Alasano/procrastinate/blob/master/LICENSE"
+description = "Procrastinate is the theme you install tomorrow, created by Aljosa Asanovic (@alasano)."
+homepage = "https://github.com/Alasano/procrastinate"
+tags = ["blog", "minimal", "procrastinate", "alasano"]
+features = ["blog", "disqus", "google analytics", "pagination", "rss", "social"]
+min_version = 0.14
+
+[author]
+  name = "Aljosa Asanovic"
+  homepage = "http://alasano.com"
+

@@ -1,0 +1,21 @@
+    <header id="site-header">
+        <div class="container">
+            <a href="{{ .Site.BaseURL }}" alt="{{ .Site.Title }}"><h1 class="blog-title heading">{{ .Site.Title }}</h1></a>
+            {{ with .Site.Params.facebook }}
+            <a href="https://facebook.com/{{ . }}" class="fa fa-facebook fa-lg"></a>
+            {{ end }}
+            {{ with .Site.Params.twitter_name }}
+            <a href="https://twitter.com/{{ . }}" class="fa fa-twitter fa-lg"></a>
+            {{ end }}
+            {{ with .Site.Params.github }}
+            <a href="https://github.com/{{ . }}" class="fa fa-github fa-lg"></a>
+            {{ end }} 
+            {{ with .Site.Params.google_plus }}
+            <a href="https://plus.google.com/+{{ . }}" class="fa fa-google-plus fa-lg"></a>
+            {{ end }}
+            {{ with .Site.Params.onename }}
+            <a href="https://onename.com/{{ . }}" class="fa fa-btc fa-lg"></a>
+            {{ end }}        
+            <p class="blog-description">{{ .Site.Params.description }}</p>
+        </div>
+    </header>
